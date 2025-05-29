@@ -151,6 +151,30 @@
     <footer>
         &copy; 2024 FotoFerrara - Todos os direitos reservados
     </footer>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.8.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDoeNVCO70QexziV_dCvky2UFu3p4fXSaA",
+    authDomain: "fotoferraraonline.firebaseapp.com",
+    projectId: "fotoferraraonline",
+    storageBucket: "fotoferraraonline.firebasestorage.app",
+    messagingSenderId: "1079836389163",
+    appId: "1:1079836389163:web:aae364a8490be7f87fdf6e",
+    measurementId: "G-M790M93JE5"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     <script src="Cadastro-Login_FotoFerrara.js"></script>
+    
 </body>
 </html>
