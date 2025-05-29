@@ -125,12 +125,12 @@
         <div class="left">
             <h1>Cadastre-se</h1>
             <p>Junte-se à comunidade de amantes da fotografia do FotoFerrara hoje mesmo!</p>
-            <form class="form">
-                <input type="text" placeholder="Nome Completo" required>
-                <input type="email" placeholder="Digite seu e-mail" required>
-                <input type="password" placeholder="Senha" required>
-                <input type="password" placeholder="Digite novamente a senha" required>
-                <button class="btn-cadastro">Cadastrar-se</button>
+            <form id="cadastroForm" class="form">
+                <input type="text" id="cadastroNome" placeholder="Nome Completo" required>
+                <input type="email" id="cadastroEmail" placeholder="Digite seu e-mail" required>
+                <input type="password" id="cadastroSenha" placeholder="Senha" required>
+                <input type="password" id="cadastroConfirmarSenha" placeholder="Digite novamente a senha" required>
+                <button class="btn-cadastro" type="submit">Cadastrar-se</button>
             </form>
             <div class="login-link">
                 <p>Já tem uma conta? <a href="Login - Fotoferrara.html">Entrar</a></p>
@@ -140,5 +140,6 @@
     <footer>
         &copy; 2024 FotoFerrara - Todos os direitos reservados
     </footer>
+    <script src="Cadastro-Login_FotoFerrara.js"></script>
 </body>
 </html>
